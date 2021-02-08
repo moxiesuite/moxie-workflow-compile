@@ -2,12 +2,12 @@ var async = require("async");
 var fs = require("fs");
 var mkdirp = require("mkdirp");
 var path = require("path");
-var Config = require("truffle-config");
-var compile = require("truffle-compile");
-var expect = require("truffle-expect");
+var Config = require("moxie-config");
+var compile = require("moxie-compile");
+var expect = require("moxie-expect");
 var _ = require("lodash");
-var Resolver = require("truffle-resolver");
-var Artifactor = require("truffle-artifactor");
+var Resolver = require("moxie-resolver");
+var Artifactor = require("moxie-artifactor");
 var OS = require("os");
 
 var Contracts = {

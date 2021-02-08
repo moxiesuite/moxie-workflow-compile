@@ -1,2 +1,2 @@
-# truffle-workflow-compile
-Core workflow logic for the `truffle compile` command behavior
+# moxie-workflow-compile
+Core workflow logic for the `moxie compile` command behavior
